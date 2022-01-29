@@ -1,0 +1,155 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+#container {
+  margin-top: 50px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+#header {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  font-size: 3.2em;
+  font-family: "Vollkorn";
+  letter-spacing: -1px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#header a {
+  color: #222222;
+  text-decoration: none;
+}
+#header a:hover {
+  color: #cc092f;
+}
+#nav {
+  font-family: "Source Sans Pro";
+  color: #707070;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+#nav a {
+  margin-right: 20px;
+  padding-left: 5px;
+  color: #707070;
+  text-decoration: none;
+}
+#nav a:hover {
+  color: #222222;
+}
+#nav .push {
+  padding-left: 15px;
+}
+.gap {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  height: 30px;
+}
+#main {
+  margin-left: 170px;
+  display: inline;
+  float: left;
+  width: 700px;
+  margin: 0 10px;
+  font-family: "Vollkorn";
+  font-size: 1.5em;
+  color: #222222;
+  padding: 0px;
+}
+#main a {
+  text-decoration: none;
+  color: #cc092f;
+  padding-bottom: 0px;
+}
+#main a:hover {
+  color: #f5133f;
+}
+#main .extra {
+  padding-top: 20px;
+}
+#work .work,
+#teaching .teaching,
+#vita .vita,
+#contact .contact {
+  color: #cc092f;
+}
+#work .work:hover,
+#teaching .teaching:hover,
+#vita .vita:hover,
+#contact .contact:hover {
+  color: #cc092f;
+}
+h2 {
+  color: #222222;
+  font-weight: normal;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #222222;
+  margin-bottom: 5px !important;
+}
+span.kern {
+  margin-left: -4px;
+}
+span.push {
+  padding-left: 2px;
+}
+p.paper_title {
+  font-size: 1.1em;
+  color: #222222;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+p.pubinfo,
+p.course_date {
+  font-size: 0.7em;
+  font-family: "Source Sans Pro";
+  color: #999999;
+  margin-top: 0px !important;
+}
+p.abstract,
+p.course_info {
+  font-size: 0.7em;
+  font-family: "Source Sans Pro";
+  letter-spacing: -0.04em;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+p.course_info {
+  margin-top: 5px !important;
+}
+p.note {
+  font-family: "Source Sans Pro";
+  font-size: 0.7em;
+  letter-spacing: .02em;
+  font-weight: normal;
+  color: #999999;
+}
+.dark {
+  color: #222222;
+}
